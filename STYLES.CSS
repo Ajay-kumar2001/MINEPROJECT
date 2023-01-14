@@ -6,6 +6,7 @@
  background-repeat: no-repeat;
   background-size: cover;
   background-image:url(mainimg.PNG);
+ /* background :linear-gradient(to bottom, rgba(0, 0, 0, 0.5) );*/
 }
 
 
@@ -126,6 +127,9 @@ font-size: 20PX;
 }
 
 /*legend css propaties*/
+
+
+
 /*DIFFERENT TYPES OF PLACES*/
 .local{
     display :block;
@@ -150,11 +154,205 @@ border:1px solid black;
 box-shadow: 5px 5px 3px rgb(152, 214, 230)  ;
 }
 .more-places{
-display: none;
+    display: none;
 }
-.show-more:hover .more-places{
-display: block;
+.showClass:hover .more-places{
+    display: block;
+
 }
+
+
 .col-3{
 padding: 0px;
+}  
+/*DIFFERENT TYPES OF PLACES*/
+
+
+
+
+/*app donlode area  */
+.app-container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 239, 241);
 }
+.app-img{
+    width: 150px;
+    height: 200px;
+}
+.use-donlode-app-container{
+    margin-left: 40px;
+    
+    height: 60vh;
+    width: 50%;
+}
+.heading{
+margin-top: 50px;
+margin-bottom:20px ;
+}
+.textid{
+    margin-bottom: 25px;
+    color: rgb(141, 139, 139);
+}
+.select-p-E{
+    margin-bottom: 20px;
+    color: rgb(141, 139, 139);
+}
+.downlode{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(141, 139, 139);
+}
+#inputemail{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 181, 181);
+}
+#shareApp{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(230, 54, 54);
+    border: 1px solid  rgb(182, 181, 181);
+}
+.donlode-opption-container{
+    display: flex;
+    
+
+}
+#downlodelink{
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+/*app donlode area  */
+
+
+/*FOOTER SECTION*/
+#f-downlodelink{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 2;
+}
+.footer{
+    background-color: rgb(213, 212, 212);
+    margin-top: 20px;
+}
+.b-f-con{
+    padding-top: 20px;
+}
+#india{
+    width: 80px;
+    border: none;
+    margin-right: 6px;
+    border: solid rgb(170, 167, 167);
+    background-color: white;
+    border-radius: 5px;
+}
+#English{
+    width: 100px;
+    border: none;
+    margin-right: 6px;
+    border: solid rgb(205, 200, 200);
+    background-color: white;
+border-radius: 5px;
+}
+.fa-brands{
+    color: rgb(26, 25, 25);
+    font-size: larger;
+}
+.h5tag{
+    color: black;
+}
+.textcolor-m{
+    color: rgb(126, 125, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.textcolor:hover{
+    color:rgb(16, 16, 16)
+
+}
+
+/*FOOTER SECTION*/
+
+
+
+/*INDEX2.HTML IS STATED */
+.inputfild-serch{
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: non;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(175, 175, 175) ,5px 5px 5px rgb(175, 175, 175);
+    
+}
+.data{
+    margin-top: 25px;
+}
+/*second bar for D D N  */
+.containers{
+    margin-top: 60px;
+    width: 50%;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(173, 173, 173);
+}
+.menu2{
+    display: flex;
+}
+.heaing-index2{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+/*second bar for D D N  */
+
+/*FOOD ITEMS OR COLLECTION OF FOOD ITEMS IN EACH PLACE */
+.FooD-Items{
+    width: 23%;
+    height: 40vh;
+    border: 1px solid rgb(159, 157, 157);
+    margin-right: 100px;
+}
+.FOOd-CON{
+    margin-top: 30px;
+}
+/*FOOD ITEMS OR COLLECTION OF FOOD ITEMS IN EACH PLACE */
+.FOODITEM{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.rows{
+    margin-top: 5px;
+}
+.place-con{
+    display: flex;
+justify-content: space-between;
+}
+.placehader{
+    font-size: 20px;
+}
+
+/*INDEX2.HTML IS ENDED */
