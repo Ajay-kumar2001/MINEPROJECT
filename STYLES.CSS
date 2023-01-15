@@ -143,15 +143,18 @@ font-size: 20PX;
 
 width: 30%;
 height: 15vh;
+background-color: rgb(224, 220, 220);
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 margin: 15px 15px 15px 15px;
 border-radius: 10px;
-border:1px solid black;
+border:1px solid rgb(196, 194, 194);
+text-decoration: none;
+color: black;
 }
 .places:hover{
-box-shadow: 5px 5px 3px rgb(152, 214, 230)  ;
+box-shadow: 1px 1px 1px 5px rgb(152, 214, 230) ;
 }
 .more-places{
     display: none;
@@ -331,6 +334,9 @@ border-radius: 5px;
 
 /*second bar for D D N  */
 
+
+/*gachibowli*/
+
 /*FOOD ITEMS OR COLLECTION OF FOOD ITEMS IN EACH PLACE */
 .FooD-Items{
     width: 25%;
@@ -414,5 +420,150 @@ justify-content: space-between;
 }
 /*FOOD ITEMS OR COLLECTION OF FOOD ITEMS IN EACH PLACE */
 
-
+/*/*gachiboili*/
 /*INDEX2.HTML IS ENDED */
+
+
+/*JUBLIEEHILLS*/
+.KFC{
+    background-image: url("KFC2.PNG");
+    background-size: cover;
+}
+.Mehfil-R2{
+    background-image: url("MEHFIL2.PNG");
+    background-size: cover;
+}
+.paradise2{
+    background-image: url("PARADISE2.PNG");
+    background-size: cover;
+}
+.Kritunga{
+    background-image: url("KRITUNGA.PNG");
+    background-size: cover;
+}
+.Lucky{
+    background-image: url("LUCKY2.PNG");
+    background-size: cover;
+}
+.Biryani{
+    background-image: url("BIRYANI2.PNG");
+    background-size: cover;
+}
+
+/*JUBLIEEHILLS*/
+
+/*BANJARAHILLS*/
+.KFC3{
+    background-image: url("KFC2.PNG");
+    background-size: cover;
+}
+.Mehfil-R3{
+    background-image: url("MEHFIL2.PNG");
+    background-size: cover;
+}
+.paradise3{
+    background-image: url("paradise.PNG");
+    background-size: cover;
+}
+.Pista3{
+    background-image: url("PISTA.PNG");
+    background-size: cover;
+
+}
+.Lucky3{
+    background-image: url("LUCKY3.PNG");
+    background-size: cover;
+}
+.Bryani3{
+    background-image: url("RAJU.PNG");
+    background-size: cover;
+}
+/*BANJARAHILLS*/
+/*HITECH CITY*/
+.Millet{
+    background-image: url("Millet.PNG");
+    background-size: cover;
+}
+.Sitara{
+    background-image: url("Sitara.PNG");
+    background-size: cover;
+}
+.Chutneys{
+    background-image: url("Chutneys.PNG");
+    background-size: cover;
+}
+/*HITECH CITY*/
+
+
+
+/*====================================MEHFIL==================================================*/
+.Mehfil-photo-img-front{
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.width-incred{
+    width: 100%;
+    height: 60vh;
+}
+
+.INCREASING-THE-FONT-SIZE{
+    font-size: 30px;
+}
+/*ONLINE-ORDARING-MENU BAR*/
+.ONLINE-ORDARING-MENU-BAR{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(242, 51, 34);
+ display: block;
+}
+    .ONLINE-ORDARING-MENU-BAR:hover .line{
+        display: block;
+        animation-name:lines ;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-duration: 0.5s;
+    }
+    @keyframes lines{
+        0%{width:0%;}
+        
+        20%{width: 4%;}
+        40%{width: 8%;}
+        60%{width: 12%;}
+        80%{width: 16%;}
+        90%{width: 20%;}
+        100%{width: 24%;}
+        
+
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 0.5fr 0.8fr 1.7fr;
+
+    }
+    
+.item1{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+.item2{
+    width: 100%;
+    height: 100vh;
+
+}
+.item3{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*ONLINE-ORDARING-MENU BAR*/
+ /*====================================MEHFIL==================================================*/
+ 
