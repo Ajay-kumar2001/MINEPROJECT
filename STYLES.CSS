@@ -528,7 +528,7 @@ justify-content: space-between;
         display: block;
         animation-name:lines ;
         animation-timing-function: linear;
-        animation-iteration-count: 1;
+        animation-iteration-count: 2s;
         animation-duration: 0.5s;
     }
     @keyframes lines{

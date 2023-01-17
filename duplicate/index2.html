@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <Style>
+            .body{
+                width: 100%;
+                height: 100vh;
+               /* background: linear-gradient(rgba(30, 98, 217, 0.3),rgba(232, 42, 42,0.5),hsla(118, 92%, 66%, 0.302));   */
+            }
+            .grid-container{
+                width: 45%;
+                display: grid;
+                grid-template-columns:auto auto auto auto auto auto auto auto auto auto;
+                border: 1px solid black;
+                background-color: transparent
+                
+            }
+            .items{
+                width: 60px;
+                height: 60px;
+                border: 1px solid black;
+            }
+            
+            
+            
+            
+            button{
+                width: 60px;
+                height: 40px;
+            }
+            .img{
+                background-image: url("gameman.jpg");
+                background-size: cover;
+            }
+            .img2{
+                background-image: url("gamman2.jpg");
+                background-size: cover;
+            }
+            .con{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+        </Style>
+        
+    </head>
+    <body>
+        <div class="body">
+         <div class="con">   
+            <div class="grid-container">
+               <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+                    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+    
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+             
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              <div class="items"></div>
+              
+    
+              
+              
+              
+    
+            </div>
+           <button onclick="user()"> click me</button>
+           <h1>ads</h1>
+    </div>
+        </div>
+       
+        <script>
+             var usersum=0
+             var comsum=0
+    function user(){
+         var  i=Math.floor( (Math.random()*10+1))
+         
+          usersum+=i
+          if (usersum>110 ||comsum>110 ){
+            if (usersum>comsum){
+                var p=document.querySelector(".con h1").innerHTML="YOU WORN THE GAMME"
+                console.log(p)
+                
+            }
+            else{
+                var p=document.querySelector("h1").innerHTML="YOU LOSET THE GAMME"
+            }
+          }
+    
+         var ref=document.getElementsByClassName("items")
+         console.log(ref)
+         ref[usersum].className="img"
+         computer()
+    
+           
+    } 
+    
+    
+    function computer(){
+         var  i=Math.floor( (Math.random()*10+1))
+         
+          comsum+=i
+          console.log(comsum)
+    
+         var ref=document.getElementsByClassName("items")
+         console.log(ref)
+         ref[comsum].className="img2"
+         
+    
+           
+    } 
+        </script>
+    
+        
+    </body>
+    </html>
+    
+</body>
+</html>
