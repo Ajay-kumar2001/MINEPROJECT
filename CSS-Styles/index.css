@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.FrontViwe{width: 100%; height: 500px; 
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(mainimg.PNG);
+ /* background :linear-gradient(to bottom, rgba(0, 0, 0, 0.5) );*/
+}
+
+
+.size{
+margin-top: 30px;
+color: white;
+
+} 
+.fluid-container{
+z-index: 2;
+}
+.HeadBody{
+height: 50vh;
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+position: relative;
+top: 80px;
+
+}
+.H1Heading{
+color: white;
+}
+.cotation{
+color:white;
+}
+.serch{
+width: 70%;
+height: 40px;
+text-align: center;
+border-radius: 20px;
+border: none;
+}
+
+.contAline{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/* /*relate to second page orders related */
+.items{
+width: 30%;
+height: 50vh;
+border: 1px solid black;
+border-radius: 20px;
+margin-right: 10px;
+
+
+}
+.orders{
+background-image: url("orders.jpg");
+width: 100%;
+box-sizing: border-box;
+height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.diner{
+background-image: url("diner.jpg");
+width: 100%;
+box-sizing: border-box;
+height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.night{
+background-image: url("night.jpg");
+width: 100%;
+box-sizing: border-box;
+height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+
+
+}
+.orders:hover {
+/* width: 31%;
+height: 51vh;*/
+}
+.bottom-info{
+
+}
+/*relate to second page orders related */
+
+
+/*DIFFERENT TYPES OF PLACES*/
+.baners{
+width: 20%;
+height: 50vh;
+border: 1px solid black;
+border-radius: 20px;
+margin-right: 10px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+/*legend css propaties*/
+.legend{
+background-image: url("");
+}
+
+.Picturesque-Cafes{
+background-image: url("");
+}
+.lplaces{
+font-size: 20PX;
+}
+
+/*legend css propaties*/
+
+
+
+/*DIFFERENT TYPES OF PLACES*/
+.local{
+    display :block;
+
+}
+.showClass{
+    
+}
+
+.places{
+
+width: 30%;
+height: 15vh;
+background-color: rgb(224, 220, 220);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 15px 15px 15px 15px;
+border-radius: 10px;
+border:1px solid rgb(196, 194, 194);
+text-decoration: none;
+color: black;
+}
+.places:hover{
+box-shadow: 1px 1px 1px 5px rgb(152, 214, 230) ;
+}
+.more-places{
+    display: none;
+}
+.showClass:hover .more-places{
+    display: block;
+
+}
+
+
+.col-3{
+padding: 0px;
+}  
+/*DIFFERENT TYPES OF PLACES*/
+
+
+
+
+/*app donlode area  */
+.app-container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 239, 241);
+}
+.app-img{
+    width: 150px;
+    height: 200px;
+}
+.use-donlode-app-container{
+    margin-left: 40px;
+    
+    height: 60vh;
+    width: 50%;
+}
+.heading{
+margin-top: 50px;
+margin-bottom:20px ;
+}
+.textid{
+    margin-bottom: 25px;
+    color: rgb(141, 139, 139);
+}
+.select-p-E{
+    margin-bottom: 20px;
+    color: rgb(141, 139, 139);
+}
+.downlode{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(141, 139, 139);
+}
+#inputemail{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 181, 181);
+}
+#shareApp{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(230, 54, 54);
+    border: 1px solid  rgb(182, 181, 181);
+}
+.donlode-opption-container{
+    display: flex;
+    
+
+}
+#downlodelink{
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+/*app donlode area  */
+
+
+/*FOOTER SECTION*/
+#f-downlodelink{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 2;
+}
+.footer{
+    background-color: rgb(213, 212, 212);
+    margin-top: 20px;
+}
+.b-f-con{
+    padding-top: 20px;
+}
+#india{
+    width: 80px;
+    border: none;
+    margin-right: 6px;
+    border: solid rgb(170, 167, 167);
+    background-color: white;
+    border-radius: 5px;
+}
+#English{
+    width: 100px;
+    border: none;
+    margin-right: 6px;
+    border: solid rgb(205, 200, 200);
+    background-color: white;
+border-radius: 5px;
+}
+.fa-brands{
+    color: rgb(26, 25, 25);
+    font-size: larger;
+}
+.h5tag{
+    color: black;
+}
+.textcolor-m{
+    color: rgb(126, 125, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.textcolor:hover{
+    color:rgb(16, 16, 16)
+
+}
+
+/*FOOTER SECTION*/
+
+
