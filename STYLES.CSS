@@ -47,6 +47,7 @@ border: none;
 }
 
 .contAline{
+    margin-left: 10%;
 margin-top: 30px;
 margin-bottom: 30px;
 }
@@ -54,7 +55,7 @@ margin-bottom: 30px;
 .items{
 width: 30%;
 height: 50vh;
-border: 1px solid black;
+border: 1px solid rgb(209, 208, 208);
 border-radius: 20px;
 margin-right: 10px;
 
@@ -93,6 +94,10 @@ border-top-right-radius: 20px;
 
 
 }
+
+.bottom-info {
+    padding-left: 20px;
+}
 .orders:hover {
 /* width: 31%;
 height: 51vh;*/
@@ -105,6 +110,7 @@ height: 51vh;*/
 
 /*DIFFERENT TYPES OF PLACES*/
 .baners{
+
 width: 20%;
 height: 50vh;
 border: 1px solid black;
@@ -116,16 +122,29 @@ flex-direction: column;
 justify-content: flex-end;
 }
 /*legend css propaties*/
+.them{
+    background-image: url("./thems.PNG");
+    background-size: cover;
+}
 .legend{
-background-image: url("");
+background-image: url("./place2.PNG");
+background-size: cover;
+
 }
 
 .Picturesque-Cafes{
-background-image: url("");
+background-image: url("./cafe.PNG");
+background-size: cover;
+
+}
+.open{background-image: url("./newopen.PNG");
+    background-size: cover;
 }
 .lplaces{
 font-size: 20PX;
+color: white;
 }
+.a{color: white;}
 
 /*legend css propaties*/
 
@@ -253,6 +272,7 @@ margin-bottom:20px ;
 .footer{
     background-color: rgb(213, 212, 212);
     margin-top: 20px;
+
 }
 .b-f-con{
     padding-top: 20px;
@@ -351,6 +371,7 @@ border-radius: 5px;
 
 }
 .FOOd-CON{
+    margin-left:10% ;
     margin-top: 30px;
 }
 .FOODITEM{
