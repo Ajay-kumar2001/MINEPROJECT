@@ -53,8 +53,8 @@ margin-bottom: 30px;
 }
 /* /*relate to second page orders related */
 .items{
-width: 30%;
-height: 50vh;
+width: 28%;
+height: 48vh;
 border: 1px solid rgb(209, 208, 208);
 border-radius: 20px;
 margin-right: 10px;
@@ -63,7 +63,7 @@ margin-right: 10px;
 }
 .orders{
 background-image: url("orders.jpg");
-width: 100%;
+width: 98%;
 box-sizing: border-box;
 height: 40vh;
 background-repeat: no-repeat;
@@ -94,6 +94,7 @@ border-top-right-radius: 20px;
 
 
 }
+
 
 .bottom-info {
     padding-left: 20px;
