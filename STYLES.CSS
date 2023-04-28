@@ -54,7 +54,7 @@ margin-bottom: 30px;
 /* /*relate to second page orders related */
 .items{
 width: 28%;
-height: 48vh;
+height: 50vh;
 border: 1px solid rgb(209, 208, 208);
 border-radius: 20px;
 margin-right: 10px;
@@ -63,7 +63,7 @@ margin-right: 10px;
 }
 .orders{
 background-image: url("orders.jpg");
-width: 98%;
+width: 100%;
 box-sizing: border-box;
 height: 40vh;
 background-repeat: no-repeat;
